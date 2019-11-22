@@ -204,6 +204,10 @@ class _ChirpAppState extends State<ChirpApp> with WidgetsBindingObserver {
                   color: chirpYellow,
                   onPressed: _startStopSDK,
                 ),
+                SizedBox(
+                  height: 50,
+                ),
+                Text('by @prasadsunny1'),
               ],
             ),
           ),
